@@ -2,7 +2,7 @@
 
 **A four-agent system that prioritises B2B sales leads and writes follow-up emails in which every product claim is checked against the company's own documentation before it goes out.**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jagath30/agentic-sales-lead-rag/blob/main/agentic_sales_lead_rag.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jagath30/Agentic-sales-lead-rag/blob/main/agentic_sales_lead_rag.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-LCEL-1C3C3C)
 ![FAISS](https://img.shields.io/badge/Vector%20search-FAISS-0467DF)
@@ -124,8 +124,8 @@ The first full run takes about 7–10 minutes on Groq's free tier, because the f
 ### Local
 
 ```bash
-git clone https://github.com/Jagath30/agentic-sales-lead-rag.git
-cd agentic-sales-lead-rag
+git clone https://github.com/Jagath30/Agentic-sales-lead-rag.git
+cd Agentic-sales-lead-rag
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 export GROQ_API_KEY="your-key"                      # Windows: set GROQ_API_KEY=your-key
