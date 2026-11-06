@@ -1,0 +1,21 @@
+# Files the notebook writes when it runs
+/agent_cache.json
+/pip_log.txt
+/leads_scored.csv
+/brightlane_kb.md
+/leads.csv
+
+# Secrets
+.env
+*.key
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
